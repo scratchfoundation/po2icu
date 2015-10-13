@@ -1,5 +1,5 @@
 {
-  "name": "scratch-po2icu",
+  "name": "po2icu",
   "version": "0.0.1",
   "description": "Converts po files into JSON objects that contain ICU-formatted localization strings.",
   "main": "./lib/po2icu.js",
