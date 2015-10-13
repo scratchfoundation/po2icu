@@ -16,5 +16,9 @@
     "intl-messageformat": "1.1.0",
     "node-gettext": "1.0.1",
     "tap": "2.1.0"
+  },
+  "dependencies": {
+    "i18next-conv": "0.1.7",
+    "node-gettext": "1.0.1"
   }
 }
