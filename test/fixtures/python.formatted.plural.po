@@ -21,4 +21,6 @@ msgstr ""
 
 #, python-format
 msgid "1 minute ago"
-msgstr "hace 1 minuto"
+msgid_plural "%(minutes)d minutes ago"
+msgstr[0] "hace 1 minuto"
+msgstr[1] "hace %(minutes)d minutos"

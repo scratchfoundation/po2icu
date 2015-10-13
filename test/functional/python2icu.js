@@ -5,14 +5,8 @@ tap.test('pythonDigitToICU', function (t) {
     var testFile = './test/fixtures/python.formatted.po';
     var object = po2icu.poFileToICUSync('es', testFile);
 
-    var icuIdealKey = '{minutes, plural,\n' +
-        '    one {1 minute ago}\n' +
-        '    other {{minutes} minutes ago}\n' +
-        '}';
-    var icuIdealValue = '{minutes, plural,\n' +
-        '    one {hace 1 minuto}\n' +
-        '    other {hace {minutes} minutos}\n' +
-        '}';
+    var icuIdealKey = '1 minute ago';
+    var icuIdealValue = 'hace 1 minuto';
     t.ok(object.hasOwnProperty(icuIdealKey));
     t.equal(icuIdealValue, object[icuIdealKey]);
     t.end();
