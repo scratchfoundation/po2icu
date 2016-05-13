@@ -1,7 +1,8 @@
 {
   "name": "po2icu",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Converts po files into JSON objects that contain ICU-formatted localization strings.",
+  "repository": "https://github.com/LLK/po2icu",
   "main": "index.js",
   "keywords": [
     "localization",
@@ -12,13 +13,10 @@
   "devDependencies": {
     "eslint": "1.6.0",
     "eslint-plugin-react": "3.5.1",
-    "i18next-conv": "0.1.6",
-    "intl-messageformat": "1.1.0",
-    "node-gettext": "1.0.1",
     "tap": "2.1.0"
   },
   "dependencies": {
-    "i18next-conv": "0.1.7",
+    "i18next-conv": "2.5.0",
     "intl-messageformat": "1.1.0",
     "node-gettext": "1.0.1"
   }
